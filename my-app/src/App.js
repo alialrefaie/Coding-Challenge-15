@@ -1,12 +1,18 @@
 // src/App.js
 import React from 'react';
+import PersonalInfo from '.PersonalInfo';
+import Skills from './Skills';
+import Experience from './Experience';
+import Education from './Education';
 import './App.css';
-import PersonalInfo from './PersonalInfo';
 
 function App() {
   return (
-    <div>
-      <Personal Info />
+    <div class name="App">
+      <PersonalInfo />
+      <Skills />
+      <Experience />
+      <Education />
     </div>
   );
 }
